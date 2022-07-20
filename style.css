@@ -21,7 +21,7 @@ main {
 .top-banner {
     background: rgb(6, 5, 5);
     padding: 20px 50px 0px 50px;
-    width: 1320px;
+    width: 900px;
     height: 640px;
     border-radius: 21px;
     display: flex;
@@ -214,6 +214,51 @@ main {
 
 }
 
+.country-name img {
+
+    width: 93px;
+    height: auto;
+    margin: 0;
+}
+
+.country-name {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    ;
+}
+
+#country-main {
+    padding: 0;
+    margin: 0;
+}
+
+.country-name span {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #000000;
+    font-size: 12px;
+
+}
+
+.team {
+    width: 60px;
+    font-size: 12px;
+}
+
+.A {
+    margin: 0;
+    text-align: center;
+    padding: 10px 0;
+    color: #8A1538;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
 .box-info img {
     width: 93px;
 }
@@ -333,199 +378,3 @@ footer ul:nth-child(4) li a {
 
 
 /*-------------------mobile section ---------------------*/
-
-
-@media only screen and (max-width:668px) {
-
-    /*---------------mobile section start-------------------*/
-    .top-banner {
-        height: auto;
-        flex-direction: column;
-        padding: 40px;
-        padding-bottom: 0;
-
-
-    }
-
-    .banner-text {
-        width: 100%;
-        margin: 0;
-        overflow: hidden;
-
-    }
-
-    .banner-text h1 {
-        font-size: 28px;
-        text-align: center;
-    }
-
-    .banner-text p {
-        font-size: 14px;
-        width: 180px;
-        margin: auto;
-        margin-top: 10px;
-        margin-bottom: 20px;
-        height: 45px;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        text-align: center;
-
-    }
-
-    .banner-text .button {
-        margin: auto;
-    }
-
-    .banner-image {
-        width: 100%;
-        margin: 0;
-    }
-
-    .banner-image img {
-        width: 100%;
-    }
-
-
-
-    .main-section {
-        width: 100%;
-        margin: 0;
-        flex-direction: column;
-        padding-top: 0;
-    }
-
-    .blog-section {
-        width: 100%;
-        flex-direction: column;
-        justify-content: space-between;
-        height: auto;
-        background: none;
-        /* padding: 0 20px; */
-        margin-bottom: 30px;
-        overflow: hidden;
-    }
-
-    .blog-content {
-        border: 1px solid gainsboro;
-    }
-
-    .box-section {
-        width: 100%;
-        margin: 0;
-        overflow: hidden;
-        grid-template-columns: repeat(1, 1fr);
-
-    }
-
-
-
-    footer {
-        overflow: hidden;
-    }
-
-    .footer-menu {
-        grid-template-columns: repeat(1, 1fr);
-        grid-row-gap: 20px;
-    }
-
-
-}
-
-/*---------------mobile section end-------------------*/
-
-/* tablet */
-@media only screen and (min-width:668px) and (max-width:1024px) {
-    .top-banner {
-        padding-top: 50px;
-        height: auto;
-        overflow: hidden;
-
-    }
-
-    .banner-text h1 {
-        font-size: 48px;
-    }
-
-    .banner-text p {
-        font-size: 14px;
-        width: 260px;
-        height: 46px;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-
-    }
-
-    .main-section {
-        width: 100%;
-        margin: 0;
-        flex-direction: column;
-        padding-top: 20;
-    }
-
-    .blog-content {
-        border: 1px solid gainsboro;
-    }
-
-    .blog-section {
-        width: 100%;
-        flex-direction: row;
-        justify-content: space-between;
-        height: auto;
-        background: none;
-        /* padding: 0 20px; */
-        margin-bottom: 30px;
-        overflow: hidden;
-    }
-
-    .box-section {
-        width: 100%;
-        margin: 0;
-        overflow: hidden;
-        grid-template-columns: repeat(2, 1fr);
-
-    }
-
-    #box-none {
-        display: none;
-    }
-
-
-    .footer-menu {
-        grid-template-columns: repeat(4, 1fr);
-        grid-row-gap: 20px;
-    }
-
-
-    .blog-section {
-        box-shadow: none;
-    }
-
-
-
-}
-
-/* tablet */
-
-
-/* 1224 */
-@media only screen and (min-width:1024px) and (max-width:1224px) {
-
-
-    .banner-text h1 {
-        font-size: 58px;
-    }
-
-    .banner-text p {
-        font-size: 12px;
-    }
-
-    .blog-content {
-        width: 180px;
-    }
-
-}
-
-/*  1224 */
-/* media  */
