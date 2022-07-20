@@ -376,5 +376,249 @@ footer ul:nth-child(4) li a {
 
 /*-------------------media queries----------------------*/
 
+/*------------------------------------------
+   Responsive design for small device
+------------------------------------------ */
+/* mobile */
 
-/*-------------------mobile section ---------------------*/
+
+@media only screen and (max-width:668px) {
+
+
+    .hero-main {
+        height: auto;
+        flex-direction: column;
+        padding: 40px;
+        padding-bottom: 0;
+
+
+    }
+
+    .hero-text {
+        width: 100%;
+        margin: 0;
+        overflow: hidden;
+
+    }
+
+    .hero-text h1 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .hero-text p {
+        font-size: 14px;
+        width: 180px;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        height: 45px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        text-align: center;
+
+    }
+
+    .hero-text .button {
+        margin: auto;
+    }
+
+    .hero-image {
+        width: 100%;
+        margin: 0;
+    }
+
+    .hero-image img {
+        width: 100%;
+    }
+
+
+
+    .main-section {
+        width: 100%;
+        margin: 0;
+        flex-direction: column;
+        padding-top: 0;
+    }
+
+    .blog-section {
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-between;
+        height: auto;
+        background: none;
+        /* padding: 0 20px; */
+        margin-bottom: 30px;
+        overflow: hidden;
+    }
+
+    .blog-content {
+        border: 1px solid gainsboro;
+    }
+
+    .transfer-section {
+        width: 100%;
+        margin: 0;
+        overflow: hidden;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+
+
+    footer {
+        overflow: hidden;
+    }
+
+    .footer-menu {
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 20px;
+    }
+
+
+}
+
+/* mobile */
+
+/* tablet */
+@media only screen and (min-width:668px) and (max-width:1024px) {
+    .hero-main {
+        padding-top: 50px;
+        height: auto;
+        overflow: hidden;
+
+
+    }
+
+    .hero-text h1 {
+        font-size: 48px;
+    }
+
+    .hero-text p {
+        font-size: 14px;
+        width: 260px;
+        height: 46px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+
+
+
+    }
+
+    .main-section {
+        width: 100%;
+        margin: 0;
+        flex-direction: column;
+        padding-top: 20;
+    }
+
+    .blog-content {
+        border: 1px solid gainsboro;
+    }
+
+    .blog-section {
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+        height: auto;
+        background: none;
+        /* padding: 0 20px; */
+        margin-bottom: 30px;
+        overflow: hidden;
+    }
+
+    .transfer-section {
+        width: 100%;
+        margin: 0;
+        overflow: hidden;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    #box-none {
+        display: none;
+    }
+
+    #view-button {
+        color: #161616;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+
+    }
+
+    #view-button:hover {
+        color: whitesmoke;
+    }
+
+    .view-box {
+        padding: 20px 0;
+        padding-top: 40px;
+        margin: auto;
+    }
+
+    footer {
+        padding: 20px 15px 20px 15px;
+    }
+
+    footer ul:nth-child(3) {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    footer ul:nth-child(4) {
+        padding: 0;
+    }
+
+    footer ul:nth-child(4) li {
+        background: #969696;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        text-align: center;
+    }
+
+    .index-footer ul:nth-child(4) li a {
+        font-size: 15px;
+        line-height: 30px;
+        color: #054082;
+    }
+}
+
+.view-box {
+    display: block;
+}
+
+.blog-section {
+    box-shadow: none;
+}
+
+
+/* tablet */
+
+
+/* 1224 */
+@media only screen and (min-width:1024px) and (max-width:1224px) {
+
+
+    .hero-text h1 {
+        font-size: 58px;
+    }
+
+    .hero-text p {
+        font-size: 12px;
+    }
+
+    .blog-content {
+        width: 180px;
+    }
+
+    .view-box {
+        display: none
+    }
+}
+
+/*  1224 */
+/* media  */
