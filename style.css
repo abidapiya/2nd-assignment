@@ -1,5 +1,7 @@
-/*-------------------fonts----------------------*/
+/*-------------------font added----------------------*/
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
 
 /*------------------Common styles----------------*/
 body {
@@ -10,6 +12,10 @@ body {
 main {
     padding: 3% 5% 0 5%;
 }
+
+/*-------------Common styles closed--------------*/
+
+
 
 /*---------------top-banner-style start-----------*/
 #container {
@@ -238,7 +244,7 @@ main {
 }
 
 .country-name span {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     color: #000000;
     font-size: 12px;
@@ -255,7 +261,7 @@ main {
     text-align: center;
     padding: 10px 0;
     color: #8A1538;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 400;
 }
 
@@ -376,13 +382,10 @@ footer ul:nth-child(4) li a {
 
 /*-------------------media queries----------------------*/
 
-/*------------------------------------------
-   Responsive design for small device
------------------------------------------- */
-/* mobile */
+/*-----------------mobile----------------------*/
 
 
-@media only screen and (max-width:668px) {
+@media only screen and (max-width:480px) {
 
 
     .hero-main {
@@ -448,7 +451,6 @@ footer ul:nth-child(4) li a {
         justify-content: space-between;
         height: auto;
         background: none;
-        /* padding: 0 20px; */
         margin-bottom: 30px;
         overflow: hidden;
     }
@@ -479,10 +481,11 @@ footer ul:nth-child(4) li a {
 
 }
 
-/* mobile */
+/*-----------------------mobile-----------------------*/
 
-/* tablet */
-@media only screen and (min-width:668px) and (max-width:1024px) {
+
+/*---------------------i-pad,tablet-------------------*/
+@media only screen and (min-width:481px) and (max-width:768px) {
     .hero-main {
         padding-top: 50px;
         height: auto;
@@ -542,14 +545,14 @@ footer ul:nth-child(4) li a {
     }
 
     #view-button {
-        color: #161616;
-        font-family: 'Montserrat', sans-serif;
+        color: black;
+        font-family: 'Poppins', sans-serif;
         font-weight: 700;
 
     }
 
     #view-button:hover {
-        color: whitesmoke;
+        color: red;
     }
 
     .view-box {
@@ -596,29 +599,15 @@ footer ul:nth-child(4) li a {
 }
 
 
-/* tablet */
+/*----------------------tablet-----------------------------*/
 
 
-/* 1224 */
-@media only screen and (min-width:1024px) and (max-width:1224px) {
-
-
-    .hero-text h1 {
-        font-size: 58px;
-    }
-
-    .hero-text p {
-        font-size: 12px;
-    }
-
-    .blog-content {
-        width: 180px;
-    }
-
+/* desktop */
+@media only screen and (min-width:769px) and (max-width:1225px) {
     .view-box {
-        display: none
+        display: none;
     }
 }
 
-/*  1224 */
-/* media  */
+/*----------------------desktop------------------*/
+/*----------------------media-------------------*/
