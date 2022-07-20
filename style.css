@@ -1,7 +1,7 @@
-/* ------fonts------- */
+/*-------------------fonts----------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
-/* -----Common styles----- */
+/*------------------Common styles----------------*/
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
@@ -11,7 +11,7 @@ main {
     padding: 3% 5% 0 5%;
 }
 
-/* top-banner-style. */
+/*---------------top-banner-style start-----------*/
 #container {
     width: 100%;
     padding-top: 30px;
@@ -21,7 +21,8 @@ main {
 .top-banner {
     background: rgb(6, 5, 5);
     padding: 20px 50px 0px 50px;
-    width: 850px;
+    width: 1320px;
+    height: 640px;
     border-radius: 21px;
     display: flex;
     justify-content: space-between;
@@ -93,12 +94,12 @@ main {
 
 }
 
-/* top-banner-style-end */
+/* --------------top-banner-style-end------------*/
 
-/* main starts */
+/*----------------main starts----------------------*/
 
 
-/* blog-content */
+/*--------------blog-content start--------------- */
 .main-section {
     margin-top: 70px;
     display: flex;
@@ -139,9 +140,10 @@ main {
     transition: .5s;
 }
 
-/*blog content end*/
+/*------------blog content end---------------*/
 
-/* box-style-start */
+
+/*---------------box-style start--------------*/
 
 
 .box-section {
@@ -204,7 +206,9 @@ main {
     margin-left: 10px;
 }
 
-/* flag-box */
+/*---------------box-style end-----------------*/
+
+/* ------------------flag-box start-------------------*/
 .flag-box .flag-item img {
     width: 93px;
 
@@ -261,12 +265,11 @@ main {
 
 }
 
-
-/* flag-box */
-
+/*-----------------flag-box end---------------------------*/
 
 
-/* footer-style-start */
+
+/*-------------------footer-style-start--------------------------*/
 
 
 footer {
@@ -322,17 +325,19 @@ footer ul:nth-child(4) li a {
     color: #054082;
 }
 
-/* footer-style-end */
+/*----------------footer-style-end-----------------*/
 
 
 
-/* media  */
-/* mobile */
+/*-------------------media queries----------------------*/
+
+
+/*-------------------mobile section ---------------------*/
 
 
 @media only screen and (max-width:668px) {
 
-
+    /*---------------mobile section start-------------------*/
     .top-banner {
         height: auto;
         flex-direction: column;
@@ -427,7 +432,7 @@ footer ul:nth-child(4) li a {
 
 }
 
-/* mobile */
+/*---------------mobile section end-------------------*/
 
 /* tablet */
 @media only screen and (min-width:668px) and (max-width:1024px) {
