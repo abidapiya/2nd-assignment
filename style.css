@@ -388,7 +388,7 @@ footer ul:nth-child(4) li a {
 @media only screen and (max-width:480px) {
 
 
-    .hero-main {
+    .top-banner {
         height: auto;
         flex-direction: column;
         padding: 40px;
@@ -397,19 +397,19 @@ footer ul:nth-child(4) li a {
 
     }
 
-    .hero-text {
+    .banner-text {
         width: 100%;
         margin: 0;
         overflow: hidden;
 
     }
 
-    .hero-text h1 {
+    .banner-text h1 {
         font-size: 28px;
         text-align: center;
     }
 
-    .hero-text p {
+    .banner-text p {
         font-size: 14px;
         width: 180px;
         margin: auto;
@@ -423,17 +423,18 @@ footer ul:nth-child(4) li a {
 
     }
 
-    .hero-text .button {
+    .banner-text .button {
         margin: auto;
     }
 
-    .hero-image {
+    .banner-image {
         width: 100%;
         margin: 0;
     }
 
-    .hero-image img {
+    .banner-image img {
         width: 100%;
+        display: block;
     }
 
 
@@ -459,7 +460,7 @@ footer ul:nth-child(4) li a {
         border: 1px solid gainsboro;
     }
 
-    .transfer-section {
+    .box-section {
         width: 100%;
         margin: 0;
         overflow: hidden;
@@ -486,7 +487,7 @@ footer ul:nth-child(4) li a {
 
 /*---------------------i-pad,tablet-------------------*/
 @media only screen and (min-width:481px) and (max-width:768px) {
-    .hero-main {
+    .top-banner {
         padding-top: 50px;
         height: auto;
         overflow: hidden;
@@ -494,11 +495,11 @@ footer ul:nth-child(4) li a {
 
     }
 
-    .hero-text h1 {
+    .banner-text h1 {
         font-size: 48px;
     }
 
-    .hero-text p {
+    .banner-text p {
         font-size: 14px;
         width: 260px;
         height: 46px;
@@ -532,7 +533,7 @@ footer ul:nth-child(4) li a {
         overflow: hidden;
     }
 
-    .transfer-section {
+    .box-section {
         width: 100%;
         margin: 0;
         overflow: hidden;
